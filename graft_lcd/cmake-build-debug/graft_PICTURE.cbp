@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="graft_PICTURE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/demo/graft_PICTURE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graft_PICTURE.elf">
+				<Option output="D:/demo/graft_PICTURE/cmake-build-debug/graft_PICTURE.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/demo/graft_PICTURE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/demo/graft_PICTURE/PICTURE"/>
+					<Add directory="D:/demo/graft_PICTURE/TEXT"/>
+					<Add directory="D:/demo/graft_PICTURE/Core/Inc"/>
+					<Add directory="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/demo/graft_PICTURE/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/demo/graft_PICTURE/Drivers/CMSIS/Include"/>
+					<Add directory="D:/demo/graft_PICTURE/FATFS/Target"/>
+					<Add directory="D:/demo/graft_PICTURE/FATFS/App"/>
+					<Add directory="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/drivers"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 graft_PICTURE.elf"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graft_PICTURE.elf/fast">
+				<Option output="D:/demo/graft_PICTURE/cmake-build-debug/graft_PICTURE.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/demo/graft_PICTURE/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xE"/>
+					<Add directory="D:/demo/graft_PICTURE/PICTURE"/>
+					<Add directory="D:/demo/graft_PICTURE/TEXT"/>
+					<Add directory="D:/demo/graft_PICTURE/Core/Inc"/>
+					<Add directory="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/demo/graft_PICTURE/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/demo/graft_PICTURE/Drivers/CMSIS/Include"/>
+					<Add directory="D:/demo/graft_PICTURE/FATFS/Target"/>
+					<Add directory="D:/demo/graft_PICTURE/FATFS/App"/>
+					<Add directory="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/drivers"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\tool\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 graft_PICTURE.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/demo/graft_PICTURE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/demo/graft_PICTURE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/demo/graft_PICTURE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/dma.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/esp8266.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/font.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/fsmc.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/gpio.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/lcd.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/main.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/malloc.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/retarget.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/sdio.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/spi.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/stm32f1xx_it.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/usart.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Inc/w25q.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/dma.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/esp8266.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/fsmc.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/gpio.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/lcd.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/main.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/malloc.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/retarget.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/sdio.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/spi.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/stm32f1xx_it.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/syscalls.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/system_stm32f1xx.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/usart.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Core/Src/w25q.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Device/ST/STM32F1xx/License.md">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/CMSIS/LICENSE.txt">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sd.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_sram.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_fsmc.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_sdmmc.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/License.md">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sd.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_sram.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_fsmc.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_sdmmc.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/FATFS/App/fatfs.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/FATFS/App/fatfs.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/FATFS/Target/bsp_driver_sd.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/FATFS/Target/bsp_driver_sd.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/FATFS/Target/ffconf.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/diskio.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/diskio.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/drivers/sd_diskio.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/ff.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/ff.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/integer.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/option/cc936.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/bmp.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/bmp.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/exfuns.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/exfuns.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/gif.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/gif.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/integer.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/piclib.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/piclib.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/tjpgd.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/PICTURE/tjpgd.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/STM32F103ZETx_FLASH.ld">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/TEXT/fontupd.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/TEXT/fontupd.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/TEXT/text.c">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/TEXT/text.h">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/startup/startup_stm32f103xe.s">
+			<Option target="graft_PICTURE.elf"/>
+		</Unit>
+		<Unit filename="D:/demo/graft_PICTURE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
